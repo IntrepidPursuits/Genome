@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		267EDC7B32366D1D33C75D81 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4229C5D50AD5F6C550EF2B8C /* Pods.framework */; };
+		4A2175171D34F3062E490913 /* Pods_Genome_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4843D4BA415F2170241690 /* Pods_Genome_iOS.framework */; };
 		8003F2B91C489586000ADD91 /* CollectionInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003F2AB1C489586000ADD91 /* CollectionInitializers.swift */; };
 		8003F2BA1C489586000ADD91 /* CollectionInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003F2AB1C489586000ADD91 /* CollectionInitializers.swift */; };
 		8003F2BB1C489586000ADD91 /* CollectionInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003F2AB1C489586000ADD91 /* CollectionInitializers.swift */; };
@@ -86,6 +86,7 @@
 		80A300B41C14E55300DDE54D /* JSONDataTypeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A300B31C14E55300DDE54D /* JSONDataTypeTest.swift */; };
 		80A300B51C15231400DDE54D /* SettableOperatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052E7831BB58178004E08F6 /* SettableOperatorTest.swift */; };
 		80FC8F1A1BB6CEE30069CC5A /* TransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8F191BB6CEE30069CC5A /* TransformTests.swift */; };
+		B2E2609D9DE62C97CEB27738 /* Pods_Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026DE83E7A2616E6DF9E8303 /* Pods_Genome.framework */; };
 		E434E00F1C5A2BF800A95287 /* PureJsonSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E434E00E1C5A2BF800A95287 /* PureJsonSerializer.framework */; };
 		E434E0111C5A2C1500A95287 /* PureJsonSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E434E0101C5A2C1500A95287 /* PureJsonSerializer.framework */; };
 		E434E0131C5A2C2200A95287 /* PureJsonSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E434E0121C5A2C2200A95287 /* PureJsonSerializer.framework */; };
@@ -103,11 +104,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026DE83E7A2616E6DF9E8303 /* Pods_Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EADFE8090AC36887C4FAC5D /* Pods-Genome-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genome-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Genome-iOS/Pods-Genome-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3D5396CC1BBA89D600791B49 /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5396E81BBA8A2800791B49 /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCE37371BB9D9A300D0100C /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4229C5D50AD5F6C550EF2B8C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CBB8E99F92200423FC3F1F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		63FC523A40C1710A1659FF2D /* Pods-Genome-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genome-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Genome-iOS/Pods-Genome-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		68088C071BC5F5D000B5A733 /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8003F2AB1C489586000ADD91 /* CollectionInitializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionInitializers.swift; sourceTree = "<group>"; };
 		8003F2AC1C489586000ADD91 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -139,7 +142,9 @@
 		8052E7841BB58178004E08F6 /* ToJsonOperatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ToJsonOperatorTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		80A300B31C14E55300DDE54D /* JSONDataTypeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataTypeTest.swift; sourceTree = "<group>"; };
 		80FC8F191BB6CEE30069CC5A /* TransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformTests.swift; sourceTree = "<group>"; };
-		CF7F7DDB6C557B820931F617 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4843D4BA415F2170241690 /* Pods_Genome_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genome_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D32677DCC6DFB6813CA36AB /* Pods-Genome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Genome/Pods-Genome.debug.xcconfig"; sourceTree = "<group>"; };
+		D2349284A0499A190A721645 /* Pods-Genome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Genome/Pods-Genome.release.xcconfig"; sourceTree = "<group>"; };
 		E434E00C1C5A2BD600A95287 /* PureJsonSerializer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureJsonSerializer.framework; path = Carthage/Build/Mac/PureJsonSerializer.framework; sourceTree = "<group>"; };
 		E434E00E1C5A2BF800A95287 /* PureJsonSerializer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureJsonSerializer.framework; path = Carthage/Build/iOS/PureJsonSerializer.framework; sourceTree = "<group>"; };
 		E434E0101C5A2C1500A95287 /* PureJsonSerializer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureJsonSerializer.framework; path = Carthage/Build/watchOS/PureJsonSerializer.framework; sourceTree = "<group>"; };
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E434E00F1C5A2BF800A95287 /* PureJsonSerializer.framework in Frameworks */,
+				4A2175171D34F3062E490913 /* Pods_Genome_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267EDC7B32366D1D33C75D81 /* Pods.framework in Frameworks */,
+				B2E2609D9DE62C97CEB27738 /* Pods_Genome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,11 +203,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7EC3370F4B3F6099236D1076 /* Pods */ = {
+		1544D5988C9E6BD425844A48 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF7F7DDB6C557B820931F617 /* Pods.debug.xcconfig */,
-				5CBB8E99F92200423FC3F1F0 /* Pods.release.xcconfig */,
+				9D32677DCC6DFB6813CA36AB /* Pods-Genome.debug.xcconfig */,
+				D2349284A0499A190A721645 /* Pods-Genome.release.xcconfig */,
+				63FC523A40C1710A1659FF2D /* Pods-Genome-iOS.debug.xcconfig */,
+				0EADFE8090AC36887C4FAC5D /* Pods-Genome-iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -240,8 +248,8 @@
 				8052E75E1BB58102004E08F6 /* Genome */,
 				8052E7731BB58102004E08F6 /* GenomeTests */,
 				8052E75D1BB58102004E08F6 /* Products */,
-				7EC3370F4B3F6099236D1076 /* Pods */,
 				8242F19A85FA817AF30CCBC9 /* Frameworks */,
+				1544D5988C9E6BD425844A48 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,6 +304,8 @@
 				E434E00E1C5A2BF800A95287 /* PureJsonSerializer.framework */,
 				E434E00C1C5A2BD600A95287 /* PureJsonSerializer.framework */,
 				4229C5D50AD5F6C550EF2B8C /* Pods.framework */,
+				026DE83E7A2616E6DF9E8303 /* Pods_Genome.framework */,
+				8A4843D4BA415F2170241690 /* Pods_Genome_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -374,10 +384,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DCE374C1BB9D9A300D0100C /* Build configuration list for PBXNativeTarget "Genome-iOS" */;
 			buildPhases = (
+				8E65F3F60311B17F3E0ABA31 /* [CP] Check Pods Manifest.lock */,
 				3DCE37321BB9D9A300D0100C /* Sources */,
 				3DCE37331BB9D9A300D0100C /* Frameworks */,
 				3DCE37341BB9D9A300D0100C /* Headers */,
 				3DCE37351BB9D9A300D0100C /* Resources */,
+				EA3F51D753BAF5A6975DADAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,12 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8052E7791BB58102004E08F6 /* Build configuration list for PBXNativeTarget "Genome" */;
 			buildPhases = (
-				2647AB7FD183122207A94A4B /* Check Pods Manifest.lock */,
+				C41FB554E1CA0DDF31FCECC4 /* [CP] Check Pods Manifest.lock */,
 				8052E7581BB58102004E08F6 /* Sources */,
 				8052E7591BB58102004E08F6 /* Frameworks */,
 				8052E75A1BB58102004E08F6 /* Resources */,
-				D04D203AB4AEC872FF9B2BB5 /* Embed Pods Frameworks */,
-				DE6DD48FE1ACF2D74CE1B2AD /* Copy Pods Resources */,
+				F6D98F50F783E8F742897FE6 /* [CP] Embed Pods Frameworks */,
+				590D5EFE105FACA08163B944 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -462,6 +474,7 @@
 					};
 					3DCE37361BB9D9A300D0100C = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					8052E75B1BB58102004E08F6 = {
 						CreatedOnToolsVersion = 7.0;
@@ -544,14 +557,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2647AB7FD183122207A94A4B /* Check Pods Manifest.lock */ = {
+		590D5EFE105FACA08163B944 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genome/Pods-Genome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E65F3F60311B17F3E0ABA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,34 +587,49 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D04D203AB4AEC872FF9B2BB5 /* Embed Pods Frameworks */ = {
+		C41FB554E1CA0DDF31FCECC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DE6DD48FE1ACF2D74CE1B2AD /* Copy Pods Resources */ = {
+		EA3F51D753BAF5A6975DADAB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genome-iOS/Pods-Genome-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D98F50F783E8F742897FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genome/Pods-Genome-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -847,6 +890,7 @@
 		};
 		3DCE37481BB9D9A300D0100C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FC523A40C1710A1659FF2D /* Pods-Genome-iOS.debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -864,6 +908,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.loganwright.Genome-iOS";
 				PRODUCT_NAME = Genome;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -872,6 +917,7 @@
 		};
 		3DCE37491BB9D9A300D0100C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EADFE8090AC36887C4FAC5D /* Pods-Genome-iOS.release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -889,6 +935,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.loganwright.Genome-iOS";
 				PRODUCT_NAME = Genome;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1036,7 +1083,7 @@
 		};
 		8052E77A1BB58102004E08F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF7F7DDB6C557B820931F617 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9D32677DCC6DFB6813CA36AB /* Pods-Genome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Genome/Info.plist;
@@ -1048,7 +1095,7 @@
 		};
 		8052E77B1BB58102004E08F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CBB8E99F92200423FC3F1F0 /* Pods.release.xcconfig */;
+			baseConfigurationReference = D2349284A0499A190A721645 /* Pods-Genome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Genome/Info.plist;

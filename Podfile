@@ -5,4 +5,10 @@ inhibit_all_warnings!
 
 platform :ios, '8.0'
 
-pod 'PureJsonSerializer'
+target "Genome" do
+    pod 'PureJsonSerializer', :git => 'git@github.com:IntrepidPursuits/Swift-PureJsonSerializer.git', :branch => 'bweber/2.3'
+end
+
+target "Genome-iOS" do
+  pod 'PureJsonSerializer', :git => 'git@github.com:IntrepidPursuits/Swift-PureJsonSerializer.git', :branch => 'bweber/2.3'
+end

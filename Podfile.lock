@@ -2,9 +2,21 @@ PODS:
   - PureJsonSerializer (1.0.0)
 
 DEPENDENCIES:
-  - PureJsonSerializer
+  - PureJsonSerializer (from `git@github.com:IntrepidPursuits/Swift-PureJsonSerializer.git`, branch `bweber/2.3`)
+
+EXTERNAL SOURCES:
+  PureJsonSerializer:
+    :branch: bweber/2.3
+    :git: git@github.com:IntrepidPursuits/Swift-PureJsonSerializer.git
+
+CHECKOUT OPTIONS:
+  PureJsonSerializer:
+    :commit: 7e9ac2a0940281e81b81c53c055532015d122226
+    :git: git@github.com:IntrepidPursuits/Swift-PureJsonSerializer.git
 
 SPEC CHECKSUMS:
   PureJsonSerializer: 31ea7db1edc605ec205c325ee9f41ffdd478c7c0
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 189612dc69d626beee1f2810ba9d74d4a1812b25
+
+COCOAPODS: 1.0.1
